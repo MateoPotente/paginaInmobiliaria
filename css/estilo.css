@@ -143,6 +143,9 @@ a{
 a:hover{
     text-decoration: underline;
 }
+.carousel{
+    width: 500px;
+}
 @media screen and (max-width:500px) {
     .navegacionInicio{
         display: grid;
