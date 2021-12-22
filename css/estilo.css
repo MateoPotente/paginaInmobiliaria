@@ -146,21 +146,3 @@ a:hover{
 .carousel{
     width: 500px;
 }
-@media screen and (max-width:500px) {
-    .navegacionInicio{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        grid-template-areas:
-        "imgInicio"
-        "emprendimientos"
-        "contacto"
-        "sobreNosotros"
-        ;
-        gap: 15px;
-        background-color: white;
-        font-size: 32px;
-        border-radius: 20px;
-        width: auto;
-    }
-}
